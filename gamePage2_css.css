@@ -1,0 +1,95 @@
+body{
+    background-image: url("IMMAGINI/GAME/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#canvas{
+    margin-top: -100px;
+    margin-left: 70px;
+}
+
+h2.title{
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+img.imgLife{
+    width: 70px;
+    margin-left: -15px;
+}
+
+img.imgAmmo{
+    width: 30px;
+    margin: -10px;
+}
+
+div.life{
+    width: max-content;
+    border: 2px solid green;
+    background-color: green;
+    height: 150px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    z-index: 2;
+}
+
+div#munizioni{
+    width: 300px;
+    border: 2px solid green;
+    background-color: green;
+    height: 150px;
+    position: relative;
+    top: -145px;
+    left: 300px;
+    z-index: -2;
+}
+
+div#cronometro{
+    width: max-content;
+    border: 2px solid green;
+    background-color: green;
+    height: 150px;
+    position: relative;
+    top: -300px;
+    left: 675px;
+}
+
+@media only screen and(max-width: 1050px){
+    div.life{
+        width: max-content;
+        border: 2px solid green;
+        background-color: green;
+        height: 150px;
+        position: relative;
+        top: 10px;
+        left: 0px;
+        z-index: 2;
+    }
+
+    div#munizioni{
+        width: max-content;
+        border: 2px solid green;
+        background-color: green;
+        height: 150px;
+        position: relative;
+        top: -145px;
+        left: 200px;
+        z-index: -2;
+    }
+    
+    div#cronometro{
+        width: max-content;
+        border: 2px solid green;
+        background-color: green;
+        height: 150px;
+        position: relative;
+        top: -300px;
+        left: 600px;
+    }
+}
